@@ -25,17 +25,17 @@ body {
   color: var(--accent-color);
 }
 
-.logo{
-font-family: Raleway;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.19
-letter-spacing: 0.03em;
-  text-decoration: none;
+.logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--title-color);
+  text-decoration: none;
 }
 
-.logo-blue{
+.logo-blue {
   color: var(--accent-color);
 }
 
@@ -54,7 +54,7 @@ letter-spacing: 0.03em;
 
 .button:hover,
 .button:focus {
-  color: var(--title-color)
+  color: var(--title-color);
   background-color: var(--accent-color);
 }
 
