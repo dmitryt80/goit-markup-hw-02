@@ -35,7 +35,7 @@ body {
 .link-footer {
   font-style: normal;
   text-decoration: none;
-  color: var(--page-title);
+  color: rgba(255, 255, 255, 0.6);
 }
 .map-link {
   color: var(--page-title);
@@ -105,7 +105,7 @@ body {
 
 .button:hover,
 .button:focus {
-  color: var(--title-color);
+  color: var(--page-title);
   background-color: var(--accent-color);
 }
 
