@@ -17,12 +17,30 @@ body {
   color: var(--main-text-color);
 }
 .link {
-  color: inherit;
+  color: var(--main-text-color);
   text-decoration: none;
 }
 .link:hover,
 .link:focus {
   color: var(--accent-color);
+}
+.menu-link {
+  color: var(--title-color);
+  text-decoration: none;
+}
+.menu-link :hover,
+.menu-link :focus {
+  color: var(--accent-color);
+}
+.link-footer {
+  font-style: normal;
+  text-decoration: none;
+  color: var(--page-title);
+}
+.map-link {
+  color: var(--page-title);
+  font-style: normal;
+  text-decoration: none;
 }
 
 .logo {
@@ -39,8 +57,41 @@ body {
   color: var(--accent-color);
 }
 
+.logo-white {
+  color: var(--page-title);
+}
+
+.main-list {
+  color: var(--title-color);
+}
 .list {
   list-style: none;
+}
+.list-bottom {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+  color: var(--page-title);
+}
+
+.hero {
+  background-color: #757575;
+}
+
+.hero-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--page-title);
+  background-color: var(--accent-color);
 }
 
 .button {
@@ -68,10 +119,34 @@ body {
   color: var(--page-title);
 }
 
+.section-features {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.text-features {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
 .section-title {
   font-family: var(--title-font);
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--title-color);
+}
+
+.section-bottom {
+  background-color: #2f303a;
 }
